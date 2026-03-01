@@ -70,13 +70,7 @@
         </nav>
 
         <!-- CTA -->
-        <a
-          href="https://wa.me/447411550978"
-          onclick="fbq('track', 'Contact')"
-          class="btn-contact"
-        >
-          Contact Us
-        </a>
+        <a href="#" onclick="trackWhatsApp()" class="btn-hero"> Contact Us </a>
       </div>
     </header>
 
@@ -93,11 +87,7 @@
             tailored to UK university standards.
           </p>
 
-          <a
-            href="https://wa.me/447411550978"
-            onclick="fbq('track', 'Contact')"
-            class="btn-hero"
-          >
+          <a href="#" onclick="trackWhatsApp()" class="btn-hero">
             Chat on WhatsApp
           </a>
         </div>
@@ -133,11 +123,7 @@
               Well-structured, plagiarism-free assignments based on your
               university guidelines.
             </p>
-            <a
-              href="https://wa.me/447411550978"
-              onclick="fbq('track', 'Contact')"
-              class="service-btn"
-            >
+            <a href="#" onclick="trackWhatsApp()" class="btn-hero">
               Contact on WhatsApp
             </a>
           </div>
@@ -158,11 +144,7 @@
               Professional support for undergraduate and postgraduate thesis
               projects.
             </p>
-            <a
-              href="https://wa.me/447411550978"
-              onclick="fbq('track', 'Contact')"
-              class="service-btn"
-            >
+            <a href="#" onclick="trackWhatsApp()" class="btn-hero">
               Contact on WhatsApp
             </a>
           </div>
@@ -182,11 +164,7 @@
             <p>
               Clean, academic presentations designed to communicate your ideas.
             </p>
-            <a
-              href="https://wa.me/447411550978"
-              onclick="fbq('track', 'Contact')"
-              class="service-btn"
-            >
+            <a href="#" onclick="trackWhatsApp()" class="btn-hero">
               Contact on WhatsApp
             </a>
           </div>
@@ -207,11 +185,7 @@
               Well-researched academic reports with proper structure and
               referencing.
             </p>
-            <a
-              href="https://wa.me/447411550978"
-              onclick="fbq('track', 'Contact')"
-              class="service-btn"
-            >
+            <a href="#" onclick="trackWhatsApp()" class="btn-hero">
               Contact on WhatsApp
             </a>
           </div>
@@ -225,11 +199,7 @@
         <div class="why-left">
           <h2>Why AssignPro?</h2>
 
-          <a
-            href="https://wa.me/447411550978"
-            onclick="fbq('track', 'Contact')"
-            class="why-btn"
-          >
+          <a href="#" onclick="trackWhatsApp()" class="btn-hero">
             Contact Us on WhatsApp
           </a>
         </div>
@@ -271,11 +241,7 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <p>WhatsApp: +44 7411 550978</p>
-          <a
-            href="https://wa.me/447411550978"
-            onclick="fbq('track', 'Contact')"
-            class="footer-btn"
-          >
+          <a href="#" onclick="trackWhatsApp()" class="btn-hero">
             Chat on WhatsApp
           </a>
         </div>
@@ -285,5 +251,13 @@
         <p>© 2026 AssignPro UK. All Rights Reserved.</p>
       </div>
     </footer>
+    <script>
+      function trackWhatsApp() {
+        fbq("track", "Contact");
+        setTimeout(function () {
+          window.location.href = "https://wa.me/447411550978";
+        }, 600);
+      }
+    </script>
   </body>
 </html>

@@ -68,13 +68,7 @@
         </nav>
 
         <!-- CTA -->
-        <a
-          href="https://wa.me/447411550978"
-          onclick="fbq('track', 'Contact')"
-          class="btn-contact"
-        >
-          Contact Us
-        </a>
+        <a href="#" onclick="trackWhatsApp()" class="btn-hero"> Contact Us </a>
       </div>
     </header>
 
@@ -93,11 +87,7 @@
 
       <!-- CTA -->
       <div class="cta-center">
-        <a
-          href="https://wa.me/447411550978"
-          onclick="fbq('track', 'Contact')"
-          class="btn-hero"
-        >
+        <a href="#" onclick="trackWhatsApp()" class="btn-hero">
           Get Presentation Help on WhatsApp
         </a>
       </div>
@@ -183,11 +173,7 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <p>WhatsApp: +44 7411 550978</p>
-          <a
-            href="https://wa.me/447411550978"
-            onclick="fbq('track', 'Contact')"
-            class="footer-btn"
-          >
+          <a href="#" onclick="trackWhatsApp()" class="btn-hero">
             Chat on WhatsApp
           </a>
         </div>
@@ -197,5 +183,13 @@
         <p>© 2026 AssignPro UK. All Rights Reserved.</p>
       </div>
     </footer>
+    <script>
+      function trackWhatsApp() {
+        fbq("track", "Contact");
+        setTimeout(function () {
+          window.location.href = "https://wa.me/447411550978";
+        }, 600);
+      }
+    </script>
   </body>
 </html>
