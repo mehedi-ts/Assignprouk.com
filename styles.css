@@ -55,7 +55,7 @@ body {
 
 /* ================= HERO ================= */
 .hero {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .hero-inner {
@@ -289,7 +289,9 @@ body {
     width: 130px;
     height: 50px;
   }
-
+  .hero {
+    padding: 27px 0;
+  }
   .hero-inner,
   .why-inner {
     flex-direction: column;
@@ -299,7 +301,14 @@ body {
   .hero-text h1 {
     font-size: 32px;
   }
-
+  .services {
+    padding: 36px 0;
+    background-color: #ffffff;
+  }
+  .why-assignpro {
+    background-color: #ffffff;
+    padding: 40px 0;
+  }
   .services-grid {
     grid-template-columns: 1fr;
   }
@@ -410,4 +419,18 @@ body {
 .cta-center {
   text-align: center;
   margin: 40px 0;
+}
+@media (max-width: 768px) {
+  .page-content {
+    padding: 40px 0;
+  }
+  .btn-hero {
+    background-color: #004f8a;
+    color: #ffffff;
+    padding: 10px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
 }
