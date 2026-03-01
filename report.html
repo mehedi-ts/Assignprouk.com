@@ -68,7 +68,16 @@
         </nav>
 
         <!-- CTA -->
-        <a href="#" onclick="trackWhatsApp()" class="btn-hero"> Contact Us </a>
+        <a
+          href="#"
+          onclick="
+            trackWhatsApp();
+            return false;
+          "
+          class="btn-hero"
+        >
+          Contact Us
+        </a>
       </div>
     </header>
 
@@ -86,7 +95,14 @@
 
       <!-- CTA -->
       <div class="cta-center">
-        <a href="#" onclick="trackWhatsApp()" class="btn-hero">
+        <a
+          href="#"
+          onclick="
+            trackWhatsApp();
+            return false;
+          "
+          class="btn-hero"
+        >
           Get Report Help on WhatsApp
         </a>
       </div>
@@ -155,7 +171,14 @@
 
       <!-- CTA -->
       <div class="cta-center">
-        <a href="#" onclick="trackWhatsApp()" class="btn-hero">
+        <a
+          href="#"
+          onclick="
+            trackWhatsApp();
+            return false;
+          "
+          class="btn-hero"
+        >
           Discuss Your Report on WhatsApp
         </a>
       </div>
@@ -177,7 +200,14 @@
 
       <!-- Final CTA -->
       <div class="cta-center">
-        <a href="#" onclick="trackWhatsApp()" class="btn-hero">
+        <a
+          href="#"
+          onclick="
+            trackWhatsApp();
+            return false;
+          "
+          class="btn-hero"
+        >
           Start Report Support with AssignPro
         </a>
       </div>
@@ -207,7 +237,14 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <p>WhatsApp: +44 7411 550978</p>
-          <a href="#" onclick="trackWhatsApp()" class="btn-hero">
+          <a
+            href="#"
+            onclick="
+              trackWhatsApp();
+              return false;
+            "
+            class="btn-hero"
+          >
             Chat on WhatsApp
           </a>
         </div>
@@ -220,9 +257,10 @@
     <script>
       function trackWhatsApp() {
         fbq("track", "Contact");
+
         setTimeout(function () {
           window.location.href = "https://wa.me/447411550978";
-        }, 600);
+        }, 700);
       }
     </script>
   </body>
