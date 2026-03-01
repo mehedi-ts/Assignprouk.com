@@ -10,6 +10,42 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+      fbq("init", "2037054254362723");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=2037054254362723&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
 
   <body>
@@ -34,7 +70,11 @@
         </nav>
 
         <!-- CTA -->
-        <a href="https://wa.me/447411550978" class="btn-contact">
+        <a
+          href="https://wa.me/447411550978"
+          onclick="fbq('track', 'Contact')"
+          class="btn-contact"
+        >
           Contact Us
         </a>
       </div>
@@ -53,7 +93,11 @@
             tailored to UK university standards.
           </p>
 
-          <a href="https://wa.me/447411550978" class="btn-hero">
+          <a
+            href="https://wa.me/447411550978"
+            onclick="fbq('track', 'Contact')"
+            class="btn-hero"
+          >
             Chat on WhatsApp
           </a>
         </div>
@@ -89,7 +133,11 @@
               Well-structured, plagiarism-free assignments based on your
               university guidelines.
             </p>
-            <a href="https://wa.me/447411550978" class="service-btn">
+            <a
+              href="https://wa.me/447411550978"
+              onclick="fbq('track', 'Contact')"
+              class="service-btn"
+            >
               Contact on WhatsApp
             </a>
           </div>
@@ -110,7 +158,11 @@
               Professional support for undergraduate and postgraduate thesis
               projects.
             </p>
-            <a href="https://wa.me/447411550978" class="service-btn">
+            <a
+              href="https://wa.me/447411550978"
+              onclick="fbq('track', 'Contact')"
+              class="service-btn"
+            >
               Contact on WhatsApp
             </a>
           </div>
@@ -130,7 +182,11 @@
             <p>
               Clean, academic presentations designed to communicate your ideas.
             </p>
-            <a href="https://wa.me/447411550978" class="service-btn">
+            <a
+              href="https://wa.me/447411550978"
+              onclick="fbq('track', 'Contact')"
+              class="service-btn"
+            >
               Contact on WhatsApp
             </a>
           </div>
@@ -151,7 +207,11 @@
               Well-researched academic reports with proper structure and
               referencing.
             </p>
-            <a href="https://wa.me/447411550978" class="service-btn">
+            <a
+              href="https://wa.me/447411550978"
+              onclick="fbq('track', 'Contact')"
+              class="service-btn"
+            >
               Contact on WhatsApp
             </a>
           </div>
@@ -165,7 +225,11 @@
         <div class="why-left">
           <h2>Why AssignPro?</h2>
 
-          <a href="https://wa.me/447411550978" class="why-btn">
+          <a
+            href="https://wa.me/447411550978"
+            onclick="fbq('track', 'Contact')"
+            class="why-btn"
+          >
             Contact Us on WhatsApp
           </a>
         </div>
@@ -207,7 +271,11 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <p>WhatsApp: +44 7411 550978</p>
-          <a href="https://wa.me/447411550978" class="footer-btn">
+          <a
+            href="https://wa.me/447411550978"
+            onclick="fbq('track', 'Contact')"
+            class="footer-btn"
+          >
             Chat on WhatsApp
           </a>
         </div>
