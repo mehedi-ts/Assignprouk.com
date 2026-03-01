@@ -211,6 +211,10 @@ body {
   .nav {
     display: none;
   }
+  .logo {
+    width: 130px;
+    height: 50px;
+  }
 
   .hero-inner,
   .why-inner {
